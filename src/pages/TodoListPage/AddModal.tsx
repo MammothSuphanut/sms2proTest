@@ -62,7 +62,7 @@ const AddModal = ({ open, setOpen, setTodoList, record, setRecord }: Props) => {
 
   return (
     <StyledModal
-      title="Add Task"
+      title={record ? 'Edit Task' : 'Add Task'}
       onOk={onFinish}
       open={open}
       onCancel={onClose}

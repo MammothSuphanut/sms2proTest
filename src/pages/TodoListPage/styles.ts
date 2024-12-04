@@ -42,7 +42,7 @@ export const AddButton = styled.button`
 `;
 
 export const StyledSelect = styled(Select)`
-  min-width: 155px;
+  min-width: 165px;
   height: 38px;
 
   :where(.css-dev-only-do-not-override-1wwf28x).ant-select-outlined:not(
